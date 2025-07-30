@@ -10,6 +10,7 @@ import { staggerContainer, fadeIn, textVariant, zoomIn } from '../utils/motion';
 import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import MainLayout from '../components/MainLayout';
+import { title } from 'framer-motion/client';
 
 // Move data to separate constants for better organization
 const sections = ['About', 'Projects', 'Skills', 'Testimonials', 'Contact'];
@@ -59,7 +60,16 @@ const projects = [
     image: "https://networkedenergy.com/uploads/articles/490x405/Managing-the-Smart-Grid-Photo.png",
     github: "https://github.com/NaRong2006",
     live: "https://rad-mermaid-647df5.netlify.app/"
-  }
+  },
+  {
+    id: 6,
+    title: "Book Store",
+    description: "Learning Change your life",
+    tags: ["JavaScript, Bootstrap"],
+    image: "https://img.freepik.com/premium-vector/bookstore-shop-exterior-woman_169241-6676.jpg",
+    github: "https://github.com/NaRong2006",
+    live:"https://narong2006.github.io/Book_ETEC/"
+   }
 ];
 
 const skills = [

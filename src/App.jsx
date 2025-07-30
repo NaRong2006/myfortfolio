@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter basename="/portfolio-2">
+    <BrowserRouter basename="/myfortfolio">
       <HomePage />
     </BrowserRouter>
   );
